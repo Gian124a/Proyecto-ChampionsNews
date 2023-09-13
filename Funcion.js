@@ -23,7 +23,8 @@ function Opciones(){
     let Perfil = document.getElementById('Perfil-Datos');
     let Editar = document.getElementById('Ajustes');
     let Configuracion = document.getElementById('Confi');
-
+    document.getElementById('Perfilito').textContent = 'Perfil';
+    
     Perfil.style.display = 'grid';
     Editar.style.display = 'none';
     Configuracion.style.display = 'none';
@@ -32,6 +33,7 @@ function Opciones2(){
     let Perfil = document.getElementById('Perfil-Datos');
     let Editar = document.getElementById('Ajustes');
     let Configuracion = document.getElementById('Confi');
+    document.getElementById('Perfilito').textContent = 'Editar Perfil';
 
     Perfil.style.display = 'none';
     Editar.style.display = 'grid';
@@ -41,7 +43,8 @@ function Opciones3(){
     let Perfil = document.getElementById('Perfil-Datos');
     let Editar = document.getElementById('Ajustes');
     let Configuracion = document.getElementById('Confi');
-
+    document.getElementById('Perfilito').textContent = 'Configuracion';
+    
     Perfil.style.display = 'none';
     Editar.style.display = 'none';
     Configuracion.style.display = 'grid';
