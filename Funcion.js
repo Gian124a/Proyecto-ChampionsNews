@@ -24,7 +24,7 @@ function Opciones(){
     let Editar = document.getElementById('Ajustes');
     let Configuracion = document.getElementById('Confi');
     document.getElementById('Perfilito').textContent = 'Perfil';
-    
+
     Perfil.style.display = 'grid';
     Editar.style.display = 'none';
     Configuracion.style.display = 'none';
@@ -44,7 +44,7 @@ function Opciones3(){
     let Editar = document.getElementById('Ajustes');
     let Configuracion = document.getElementById('Confi');
     document.getElementById('Perfilito').textContent = 'Configuracion';
-    
+
     Perfil.style.display = 'none';
     Editar.style.display = 'none';
     Configuracion.style.display = 'grid';
